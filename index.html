@@ -1,5 +1,4 @@
 <!-- By Christian Wiles 2023-->
-<!-- Boy I hope you remember me ;)-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
+    <div id="badge-overlay"></div>
     <div class="header">
+            
         <button onclick='playMusic()'>Play that funky music</button>  | 
         In dedication to one of Saxmundham's *cough* finest *cough* educational establishments *cough*
     </div>
     <div class="footer">
-        Is it really any wonder you failed?
+        Is it really any wonder you failed? | <button onclick='makeItRain()'>Make it rain</button>
     </div>
+
     <div class="content">
+        
         <object data="failures/latest2023.PDF" type="application/pdf">
     </div>
-    
+
 </body>
 </html>
 <script>
@@ -27,3 +30,4 @@
     music.play();
     }
 </script>
+<script src="scripts/fall.js"></script>

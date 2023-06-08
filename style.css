@@ -6,6 +6,7 @@ html, body {
 body {
     background-image: url("assets/bg.png");
     background-size: cover;
+    overflow: hidden;
 }
 .header {
     position:absolute;
@@ -53,3 +54,26 @@ button {
 button:hover {
     font-size:14px;
 }
+
+/** all for the falling badges **/
+#badge-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .badge {
+    position: absolute;
+    top: -10px;
+    animation: badgefall linear infinite;
+  }
+  @keyframes badgefall {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
