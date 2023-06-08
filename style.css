@@ -1,0 +1,55 @@
+html, body {
+    width:99%;
+    height:99%;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+body {
+    background-image: url("assets/bg.png");
+    background-size: cover;
+}
+.header {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    min-height: 32px;
+    background-color: #dc3545;
+    color: #fff;
+    display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    min-height:32px;
+    background-color: #dc3545;
+    color: #fff;
+    display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center; 
+   justify-content: center;
+}
+object {
+    width:75vw;
+    height:75vh;
+}
+button {
+    background: none;
+    border:0;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color:#fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+button:hover {
+    font-size:14px;
+}
