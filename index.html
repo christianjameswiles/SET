@@ -4,19 +4,12 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <script>
-        playMusic();
-
-        function playMusic(){
-        var music = new Audio('assets/musictomyears.mp3');
-        music.play();
-        }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
     <div class="header">
         <button onclick='playMusic()'>Play that funky music</button>  | 
-        In dedication to one of Saxmundhams *cough* finest *cough* educational establishments *cough*
+        In dedication to one of Saxmundham's *cough* finest *cough* educational establishments *cough*
     </div>
     <div class="footer">
         Is it really any wonder you failed?
@@ -27,3 +20,10 @@
     
 </body>
 </html>
+<script>
+    playMusic();
+    function playMusic(){
+    var music = new Audio('assets/musictomyears.mp3');
+    music.play();
+    }
+</script>
